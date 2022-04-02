@@ -5,6 +5,8 @@ import com.exercise.Lab2.dtos.PostDto;
 import com.exercise.Lab2.repository.PostRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -54,5 +56,10 @@ public class PostServiceImpl implements PostService{
     public void update(long id, Post newPost) {
         postRepository.deleteById(id);
         postRepository.save(newPost);
+    }
+
+    @Override
+    public void save(Post p) {
+        postRepository.save(p);
     }
 }

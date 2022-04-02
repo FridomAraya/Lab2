@@ -1,21 +1,13 @@
 package com.exercise.Lab2.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
-@Setter
-
+@Data
 @Entity  // add this to persistence layer/ database as a table with columns id, title, content, and author
 public class Post {
 
@@ -25,6 +17,10 @@ public class Post {
     private String title;
     private String content;
     private String author;
+
+    @ManyToOne
+    @JoinColumn
+    private User user;
 
 
 }

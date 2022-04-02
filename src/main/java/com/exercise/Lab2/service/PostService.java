@@ -7,6 +7,7 @@ import com.exercise.Lab2.dtos.PostDto;
 import java.util.List;
 
 public interface PostService {
+
     List<PostDto> findAll();
     PostDto findById(long id);
     void addPost(PostDto postDto);
@@ -14,4 +15,6 @@ public interface PostService {
     void deletePost(long id);
 
     void update(long id, Post newPost);
+
+    void save(Post p);
 }
