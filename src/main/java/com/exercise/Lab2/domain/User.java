@@ -16,7 +16,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     long id;
 
-    @Column(name = "product_name")
+    @Column(name = "post_name")
     String name;
 
     @OneToMany(mappedBy = "user")
