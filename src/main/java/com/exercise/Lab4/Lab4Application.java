@@ -1,4 +1,4 @@
-package com.exercise.Lab2;
+package com.exercise.Lab4;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class Lab2Application {
+public class Lab4Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Lab2Application.class, args);
+		SpringApplication.run(Lab4Application.class, args);
 	}
 
 	@Bean

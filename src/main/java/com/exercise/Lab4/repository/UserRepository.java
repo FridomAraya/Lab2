@@ -1,10 +1,9 @@
-package com.exercise.Lab2.repository;
+package com.exercise.Lab4.repository;
 
-import com.exercise.Lab2.domain.Post;
-import com.exercise.Lab2.domain.User;
+import com.exercise.Lab4.domain.Post;
+import com.exercise.Lab4.domain.User;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.data.repository.RepositoryDefinition;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 

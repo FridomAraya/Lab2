@@ -1,8 +1,8 @@
-package com.exercise.Lab2.service;
+package com.exercise.Lab4.service;
 
 
-import com.exercise.Lab2.domain.Post;
-import com.exercise.Lab2.domain.User;
+import com.exercise.Lab4.domain.Post;
+import com.exercise.Lab4.domain.User;
 
 import java.util.List;
 

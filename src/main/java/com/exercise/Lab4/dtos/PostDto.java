@@ -1,4 +1,4 @@
-package com.exercise.Lab2.dtos;
+package com.exercise.Lab4.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
