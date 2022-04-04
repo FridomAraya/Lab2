@@ -1,8 +1,8 @@
-package com.exercise.Lab2.controllers;
+package com.exercise.Lab4.controllers;
 
-import com.exercise.Lab2.domain.Post;
-import com.exercise.Lab2.dtos.PostDto;
-import com.exercise.Lab2.service.PostService;
+import com.exercise.Lab4.domain.Post;
+import com.exercise.Lab4.dtos.PostDto;
+import com.exercise.Lab4.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

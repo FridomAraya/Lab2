@@ -1,6 +1,6 @@
-package com.exercise.Lab2.repository;
+package com.exercise.Lab4.repository;
 
-import com.exercise.Lab2.domain.Post;
+import com.exercise.Lab4.domain.Post;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

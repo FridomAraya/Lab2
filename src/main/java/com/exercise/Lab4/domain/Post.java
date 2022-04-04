@@ -1,4 +1,4 @@
-package com.exercise.Lab2.domain;
+package com.exercise.Lab4.domain;
 
 import lombok.*;
 

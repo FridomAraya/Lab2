@@ -1,11 +1,8 @@
-package com.exercise.Lab2.service;
+package com.exercise.Lab4.service;
 
-import com.exercise.Lab2.domain.Post;
-import com.exercise.Lab2.domain.User;
-import com.exercise.Lab2.dtos.PostDto;
-import com.exercise.Lab2.helper.ListMapper;
-import com.exercise.Lab2.repository.UserRepository;
-import org.modelmapper.ModelMapper;
+import com.exercise.Lab4.domain.Post;
+import com.exercise.Lab4.domain.User;
+import com.exercise.Lab4.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,8 +13,8 @@ public class UserSeviceImpl implements UserService{
     @Autowired
     UserRepository userRepository;
 
-    @Autowired
-     ModelMapper modelMapper;
+//    @Autowired
+//     ModelMapper modelMapper;
 
     @Override
     public List<User> findAll() {
@@ -31,7 +28,6 @@ public class UserSeviceImpl implements UserService{
 
     @Override
     public void save(User user) {
-
         userRepository.save(user);
     }
 
